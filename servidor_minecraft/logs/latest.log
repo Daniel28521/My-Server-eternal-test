@@ -1,0 +1,28 @@
+[05:08:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:08:45] [ServerMain/INFO]: Loaded 1370 recipes
+[05:08:45] [ServerMain/INFO]: Loaded 1481 advancements
+[05:08:45] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[05:08:45] [Server thread/INFO]: Loading properties
+[05:08:45] [Server thread/INFO]: Default game type: SURVIVAL
+[05:08:45] [Server thread/INFO]: Generating keypair
+[05:08:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:08:45] [Server thread/INFO]: Using epoll channel type
+[05:08:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:08:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:08:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:08:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:08:46] [Server thread/INFO]: Preparing level "world"
+[05:08:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:08:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:08:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:08:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:08:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:08:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:08:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:08:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:08:49] [Server thread/INFO]: Time elapsed: 3302 ms
+[05:08:49] [Server thread/INFO]: Done (3.558s)! For help, type "help"
+[05:09:49] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[05:13:34] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[05:16:49] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[05:16:49] [Server thread/INFO]: tps<--[HERE]

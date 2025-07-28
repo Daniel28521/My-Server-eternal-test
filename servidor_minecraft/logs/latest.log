@@ -118,3 +118,50 @@
 [15:04:28] [Server thread/INFO]: Server empty for 60 seconds, pausing
 [15:11:51] [Server thread/INFO]: Whitelist is now turned on
 [15:12:01] [Server thread/INFO]: Added Daniel to the whitelist
+[15:13:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+whitelist<--[HERE]
+[15:13:19] [Server thread/INFO]: Unknown or incomplete command, see below for error
+whu<--[HERE]
+[15:14:06] [Server thread/ERROR]: Command exception: /whitelist add ".XxDaniel_MC9243"
+java.lang.IllegalArgumentException: Name cannot be longer than 16 characters
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-33.3.1-jre.jar:?]
+	at com.destroystokyo.paper.profile.CraftPlayerProfile.createAuthLibProfile(CraftPlayerProfile.java:297) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at com.destroystokyo.paper.profile.CraftPlayerProfile.<init>(CraftPlayerProfile.java:44) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at com.destroystokyo.paper.profile.CraftPlayerProfile.asBukkitCopy(CraftPlayerProfile.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.players.UserWhiteList.add(UserWhiteList.java:34) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.commands.WhitelistCommand.addPlayers(WhitelistCommand.java:87) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.commands.WhitelistCommand.lambda$register$7(WhitelistCommand.java:54) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:335) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:56) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1018) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1003) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:478) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:428) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1519) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:14:06] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[15:14:50] [Server thread/INFO]: Added .XxDaniel_MC9243 to the whitelist
+[15:14:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[15:19:32] [User Authenticator #0/INFO]: UUID of player Daniel is d050033d-d943-35db-933f-15700cf9924e
+[15:19:34] [Server thread/INFO]: Daniel joined the game
+[15:19:34] [Server thread/INFO]: Daniel[/[0:0:0:0:0:0:0:1]:52582] logged in with entity id 99 at ([world]44.41816799849006, 67.0, 713.9698688610592)
+[15:19:40] [Server thread/INFO]: Daniel issued server command: /gamemode creative
+[15:19:40] [Server thread/INFO]: [Daniel: Set own game mode to Creative Mode]
+[15:20:11] [Server thread/INFO]: Daniel issued server command: /time set day
+[15:20:11] [Server thread/INFO]: [Daniel: Set the time to 1000]
+[15:20:33] [Server thread/INFO]: Daniel issued server command: /skin redoop
+[15:20:50] [Server thread/INFO]: Daniel issued server command: /skin reedop
+[15:23:06] [Server thread/INFO]: Daniel lost connection: Disconnected
+[15:23:06] [Server thread/INFO]: Daniel left the game
